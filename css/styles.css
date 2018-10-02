@@ -1,0 +1,194 @@
+html {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+        Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 900;
+    font-size: 10px;
+    color: var(--black);
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.grid-container > div {
+    text-align: center;
+    border: 1px solid black;
+    height: 250px;
+    color: gold;
+    font-size: 25px;
+}
+
+.item-1 {
+    grid-column: 1 / span 2;
+    background-image: url(../img/natheer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item-2 {
+    grid-column: 3 / span 1;
+    background-image: url(../img/john-paul.jpg);
+    background-position: left;
+}
+
+.item-3 {
+    background-image: url(../img/evan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ .item-4 {
+     background-image: url(../img/josh.png);
+     background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+.item-5 {
+    background-image: url(../img/taufeeq.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item-7 {
+    background-image: url(../img/warnita.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.item-6 {
+    grid-column: 4;
+    grid-row: 2 / span 2;
+    background-image: url(../img/kaylem.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item-8 {
+    background-image: url(../img/gcobisa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.item-9 {
+    background-image: url(../img/miguel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.item-10 {
+    background-image: url(../img/taariq.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column: 1;
+    grid-row: 4 / span 2;
+}
+
+.item-11 {
+    background-image: url(../img/marlon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column-start: 3; 
+    grid-column-end: 4;
+}
+
+
+.item-12 {
+    background-image: url(../img/zainab.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column:3 ;
+    grid-row: 4 / span 2;
+}
+
+.item-13 {
+    background-image: url(../img/reagan.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item-14 {
+    background-image: url(../img/litha.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -180px;
+}
+
+.item-15 {
+    background-image: url(../img/shanton.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item-16 {
+    background-image: url(../img/shakeel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item-17 {
+    background-image: url(../img/tyrone.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column: 2;
+    grid-row: 6 / span 2;
+}
+
+.item-18 {
+    background-image: url(../img/ashton.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item-19 {
+    background-image: url(../img/sheldon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column: 4;
+    grid-row: 6 / span 2;
+}
+
+.item-20 {
+    background-image: url(../img/daniel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item-21 {
+    background-image: url(../img/michael.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item-22 {
+    background-image: url(../img/jessie.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item-23 {
+    background-image: url(../img/gedeon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item-24 {
+    background-image: url(../img/urick.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column: 3 / span 2;
+    grid-row: 8
+}
